@@ -12,9 +12,6 @@
 			align-items:center;
 			font-family:sans-serif;
 		}
-		h1 {
-			
-		}
 		input, select {
 			border: 1px solid #CCCCCC;
 			padding: 7px;
