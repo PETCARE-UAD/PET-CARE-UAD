@@ -1,5 +1,4 @@
 # PET-CARE-UAD
-tugas proyek
 
 fitur aplikasi
 
