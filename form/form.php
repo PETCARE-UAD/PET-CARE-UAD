@@ -50,7 +50,16 @@
 			float:left;
 		
 		}
-		
+		.data{
+			background-color:#fff;
+			width:400px;
+			text-align: center;
+			padding:40px;
+			box-sizing:border-box;
+			border-radius:20px;}
+
+
+
 	</style>
 </head>
 <body>
