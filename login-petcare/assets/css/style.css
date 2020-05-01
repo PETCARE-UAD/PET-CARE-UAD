@@ -1,5 +1,6 @@
 body{
     background: #CE5B78;
+    display: flex;
 }
 .form-login{
     margin: 100px auto;
