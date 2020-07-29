@@ -7,6 +7,6 @@ if ( isset($_SESSION['user_login']) && $_SESSION['user_login'] != '' ) {
     header('location:on-'. $halaman);
     exit();
 } else {
-    header('location:login.php');
+    header('location:inputdata.php');
     exit();
 }
