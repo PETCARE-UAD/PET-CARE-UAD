@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TmpProfilActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/tmpprofil"
+        android:layout_marginTop="5dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/tvimg"
+            android:src="@drawable/profle"
+            android:adjustViewBounds="true"
+            android:scaleType="centerInside"
+            android:layout_marginTop="20dp"
+            android:layout_margin="5dp"
+            android:padding="3dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Nama"/>
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text=": "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:text=""
+                android:textSize="18sp"
+                android:id="@+id/tvnama"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:text="Alamat"/>
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text=": "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text=""
+                android:id="@+id/tvalamat"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="No. Telp "/>
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text=": "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text=""
+                android:id="@+id/tvnohp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text="Email "/>
+            <TextView
+                android:layout_width="5dp"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text=": "/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#778899"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:text=""
+                android:id="@+id/tvemail"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
